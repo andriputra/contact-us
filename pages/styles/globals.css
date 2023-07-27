@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    width: 10%;
+    margin-bottom: 5px;
+}
+.mb-4{
+    margin-bottom: 10px;
+}
+input{
+    height: 30px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+button{
+    padding: 10px;}
